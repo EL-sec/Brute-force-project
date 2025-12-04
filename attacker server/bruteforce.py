@@ -8,8 +8,8 @@ LOGIN_URL = "http://127.0.0.1:5000/login"
 USERNAME_LIST_PATH = ""                     
 DEFAULT_USERNAMES = ["james","coco"]
 WORDLISTS_PATH = "/usr/share/wordlists/testpasswords.txt"
-DELAY = 0.0000000000000000000000000001                            
-JITTER = 0.000000000000000001                           
+DELAY = 0.5                        
+JITTER = 1                       
 DEFAULT_TIMEOUT = 5
 USE_JSON_PAYLOAD = False                  
 
